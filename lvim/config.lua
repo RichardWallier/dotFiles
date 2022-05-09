@@ -10,7 +10,7 @@ an executable
 
 -- general
 lvim.log.level = "warn"
-lvim.format_on_save = true
+lvim.format_on_save = false
 lvim.colorscheme = "onedarker"
 lvim.lsp.automatic_servers_installation = true
 
@@ -165,6 +165,9 @@ lvim.plugins = {
 			vim.g.indent_blankline_show_trailing_blankline_indent = true
 			vim.g.indent_blankline_show_first_indent_level = true
 		end
+	},
+	{
+		"42Paris/42header"
 	},
 }
 
