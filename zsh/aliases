@@ -36,7 +36,7 @@ alias godev="$HOME/Dev/go"
 
 # {{{ gcc
 
-alias 42make='gcc -Wall -Werror -Wextra -lbsd *.c -o main'
+alias 42make='gcc -Wall -Werror -Wextra *.c -o main'
 
 # }}}
 
